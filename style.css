@@ -98,7 +98,7 @@ button {
     padding: 10px;
     font-family: "Roboto";
     font-size: 18px;
-    border: none;
+    border-color: white;
 }
 
 button:hover {
@@ -114,35 +114,27 @@ button:hover {
 }
 
 .fourareas {
-    
     font-size: 36px;
     font-weight: 900;
     color: white;
     font-family: "Roboto";
     text-align: center;
     padding: 40px;
-    
 }
 
 .fourimages {
-  
     justify-content: center;
     gap: 50px;
-    display: flex;
-    
+    display: flex; 
 }
 
 .fourtext {
     flex-wrap: wrap;
     max-width: 180px;
-    
     font-size: 18px;
-    
     color: #09172b;
     font-family: "Roboto";
     text-align: center;
-   
-   
 }
 
 .areas {
@@ -174,4 +166,57 @@ cite {
    padding: 25px;
     font-size: 20px;
    font-weight: 900px;
+}
+
+.callaction {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.callbox {
+    display: flex;
+   
+    max-height: 200px;  
+    background-color: #3882F6;
+    font-family: "Roboto";
+    border-radius: 10px;
+    align-items: center;
+    padding: 70px;
+    justify-content: space-between;
+    gap: 70px;
+    
+    
+}
+
+.callcontain {
+    display: flex;
+    flex-direction: column; 
+}
+
+calltext1 {
+    color: #edf1f8;
+    font-size: 25px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+calltext2 {
+    color: #edf1f8;
+    font-size: 12px;
+    align-self: flex-end
+}
+
+.footer {
+    
+        display: flex;
+        height: 40px;
+        background-color: rgb(35, 35, 57);
+        padding: 20px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    
 }
