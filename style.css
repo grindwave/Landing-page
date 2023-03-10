@@ -102,7 +102,7 @@ button {
 }
 
 button:hover {
-    background-color:#61686a; 
+    background-color:#00A0C6;
     text-decoration:none; 
     cursor:pointer;  
 }
@@ -116,8 +116,8 @@ button:hover {
 .fourareas {
     
     font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
+    font-weight: 900;
+    color: white;
     font-family: "Roboto";
     text-align: center;
     padding: 40px;
@@ -150,39 +150,28 @@ button:hover {
     border-radius: 50px;
     border-color:#1F2937;
     border-width: 5px;
-    background-color: #425470;
+    background-color: white;
 }
 
 .quotesection {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #b0b3b8;
-    height: 450px;
-    padding: 100px;
-    flex-direction: column;
-    
+   margin: 0;
+   display: flex;
+   background-color: #edf1f8;
+   height: 250px;  
+   padding: 20px;
+   justify-content: center;
 }
 
-.quotetext {
-    display: flex;
+.blockquote {
     font-size: 36px;
     font-style: italic;
-    color:#1F2937;
-    
+    justify-content: center;
     max-width: 600px;
-    margin: 100px;
-   
-    margin-left: 200px;
-    text-align: center;
+    padding: 20px;
 }
 
-.quoteauthor {
-    font-size: 30px;
-    font-weight: 900px;
-    justify-content: center;
-    
-    display: flex;
-    margin-top: 10px;
-
+cite {
+   padding: 25px;
+    font-size: 20px;
+   font-weight: 900px;
 }
