@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    
+}
+
+
+.header {
+    display: flex;
+    height: 50px;
+    background-color: rgb(35, 35, 57);
+    padding: 10px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.herologo {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 18px;
+    align-items: center;
+    font-family: "Roboto";
+    
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.herobody {
+    display: flex;
+    height: 350px;
+    background-color: rgb(35, 35, 57);
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+}
+
+.herotextcol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    flex: 1;
+  
+    margin-left: 100px;
+    
+}
+
+herotext {
+    display: flex;
+    color: #F9FAF8;
+    font-family: "Roboto";
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 350px;
+}
+
+p { 
+    margin: 20;
+    display: flex;
+    color: #b0b3b8;
+    font-family: "Roboto";
+    align-items: center;
+    font-size: 18px;
+    max-width: 400px;
+}
+
+.heroimg {
+    display: flex;
+    padding: 1rem;
+    max-height: 350px ;
+    flex: 1;
+  }
+
+button {
+    max-width: fit-content;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    font-family: "Roboto";
+    font-size: 18px;
+    border: none;
+}
+
+button:hover {
+    background-color:#61686a; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.fourimagesection {
+  margin: 0;
+   height: 500px;
+   background-color: #6c8bc0;
+}
+
+.fourareas {
+    
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.fourimages {
+  
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+    
+}
+
+.fourtext {
+    flex-wrap: wrap;
+    max-width: 180px;
+    
+    font-size: 18px;
+    
+    color: #09172b;
+    font-family: "Roboto";
+    text-align: center;
+   
+   
+}
+
+.areas {
+    padding: 20px;
+    border-radius: 50px;
+    border-color:#1F2937;
+    border-width: 5px;
+    background-color: #425470;
+}
+
+.quotesection {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #b0b3b8;
+    height: 450px;
+    padding: 100px;
+    flex-direction: column;
+    
+}
+
+.quotetext {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    
+    max-width: 600px;
+    margin: 100px;
+   
+    margin-left: 200px;
+    text-align: center;
+}
+
+.quoteauthor {
+    font-size: 30px;
+    font-weight: 900px;
+    justify-content: center;
+    
+    display: flex;
+    margin-top: 10px;
+
+}
